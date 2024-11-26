@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <main className={`${styles.main} ${montserrat.className}`}>
-      <Navigation 
+      <Navigation
         onHomeClick={() => scrollToSection(homeRef)}
         onAboutClick={() => scrollToSection(aboutRef)}
         onContactClick={() => scrollToSection(contactRef)}
@@ -36,23 +36,23 @@ export default function Home() {
         <div className={styles.address}>
           <MapPin className={styles.icon} />
           <p>
-          House- 4, 4th floor,  Rabindra Sarani, Sector- 7<br />
-          Uttara, Dhaka, Bangladesh 1230
+            প্লট-২, ফ্ল্যাট-৯১৪৩, বাউনিয়া<br />
+            তুরাগ, ঢাকা -১২৩০
           </p>
         </div>
       </section>
       <section id="about" ref={aboutRef} className={`${styles.section} ${styles.about}`}>
         <div className={styles.content}>
-         <About />
+          <About />
         </div>
-       
+
       </section>
       <section id="contact" ref={contactRef} className={`${styles.section} ${styles.contact}`}>
         <div className={styles.content}>
-          
+
           <ContactForm />
         </div>
-       
+
       </section>
     </main>
   )

@@ -100,9 +100,10 @@ export default function App() {
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                 <a className="text-indigo-500">info@ts4u.us</a>
                 <div className="leading-normal my-5">
+
                   <p>
-                    House- 4, 4th floor,  Rabindra Sarani, Sector- <br />
-                    Uttara, Dhaka, Bangladesh 1230
+                    প্লট-২, ফ্ল্যাট-৯১৪৩, বাউনিয়া<br />
+                    তুরাগ, ঢাকা -১২৩০
                   </p>
 
                 </div>
