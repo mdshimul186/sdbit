@@ -99,13 +99,13 @@ export default function App() {
               </div>
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                 <a className="text-indigo-500">info@ts4u.us</a>
-                <p className="leading-normal my-5">
+                <div className="leading-normal my-5">
                   <p>
                     House- 4, 4th floor,  Rabindra Sarani, Sector- <br />
                     Uttara, Dhaka, Bangladesh 1230
                   </p>
 
-                </p>
+                </div>
               </div>
             </div>
           </div>

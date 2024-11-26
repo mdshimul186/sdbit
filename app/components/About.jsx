@@ -3,7 +3,7 @@ import styles from '../page.module.css'
 
 export default function About({ activeSection }) {
   return (
-    <div className="min-h-screen py-16 pt-0">
+    <div className=" py-16 pt-0">
       <div className="container mx-auto max-w-6xl px-8">
         <section 
           className={`
